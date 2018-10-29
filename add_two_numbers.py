@@ -27,11 +27,11 @@ class Solution:
             if l1.next != None:
                l1 = l1.next
             else:
-               l1 = 0
+               l1 = ListNode(0)
             if l2.next != None:
                l2 = l2.next
             else:
-               l2 = 0
+               l2 = ListNode(0)
 
             lp = l1.val + l2.val + ad
             if lp > 9:
